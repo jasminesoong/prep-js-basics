@@ -10,7 +10,10 @@
 * It should be a String.
 **/
 
-
+var firstName = "Jasmine";
+var lastName = "Soong";
+var birthPlace = "Honolulu";
+console.log(firstName, lastName, birthPlace);
 
 /**
 * #2
@@ -22,6 +25,10 @@
 * Their values should be a Number
 **/
 
+var favoriteNumber = 88;
+var currentYear = 2016;
+var thatOnePrinceSong = 1999;
+console.log(favoriteNumber, currentYear, thatOnePrinceSong);
 
 
 /**
@@ -34,7 +41,11 @@
 * Their values should be a Boolean
 **/
 
-
+var isDaytime = false;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = true;
+console.log(isDaytime, isLeftHanded, inHawaii, isHappyCoding);
 
 /**
 * #4
@@ -45,7 +56,9 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
+console.log(enrolledAtDevLeague, completedFridayPrep);
 
 /**
 * #5a
@@ -56,7 +69,8 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["Washington", "Oregon", "California"];
+console.log(westCoast);
 
 /**
 * #5b
@@ -67,7 +81,8 @@
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(evenNumbers);
 
 /**
 * #6a Arithmetic
@@ -80,8 +95,12 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
-
+var sumOfNumbers = 88 + 2;
+console.log(sumOfNumbers);
+var differenceOfNumbers = 88 - 2;
+console.log(differenceOfNumbers);
+var results = sumOfNumbers * differenceOfNumbers;
+console.log(results);
 
 /**
 * #6b Comparisons & Logic
@@ -96,11 +115,12 @@
 *   There is no test which tests your console.log()'s output'.
 *   Also, there are zero tests for the BONUS below.
 *
-* BONUS:
-*   See if you can come up with a few examples of double comparison
+* BONUS:*   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = "Tacocat" === "tacocat";
+console.log(isEqual);
 
 
 /**
@@ -119,7 +139,18 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer = 88;
+console.log(generalContainer)
+generalContainer += 12;
+console.log(generalContainer)
+generalContainer -= 50;
+console.log(generalContainer)
+generalContainer *= 10;
+console.log(generalContainer)
+++ generalContainer;
+console.log(generalContainer)
+generalContainer += "Hello Kitty";
+console.log(generalContainer)
 
 /**
 * #7a
